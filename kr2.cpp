@@ -26,8 +26,8 @@ int main()
 
 	std::cout << obj->GetCount();*/
 
-	Entertainment* obj1{};
-	Entertainment* obj2{};
+	Trip* obj1{};
+	Flight* obj2{};
 	obj1 = new Trip(10, "Trip1");
 	obj2 = new Flight(10, "Flight1");
 	obj2->ShowCount();
